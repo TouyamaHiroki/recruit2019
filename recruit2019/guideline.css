@@ -67,7 +67,6 @@ padding-left: 15px;
 .top-wrapper {
   padding-top: 180px;
   width: 100%;
-  font-family: "Kanit";
   font-size: 20px;
   padding-bottom: 30px;
   background-image: url("recruit-back.001.jpeg");
@@ -75,6 +74,7 @@ padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
+  font-family: 'Biryani', sans-serif;
 }
 .top-wrapper h2 {
   font-size: 40px;
@@ -110,7 +110,7 @@ td {
 }
 
 .back-black {
-  background-color: #212121;
+  background-color: #272727;
 }
 .margin-b-40 {
   margin-bottom: 40px;
@@ -171,6 +171,7 @@ i {
   font-size: 200px;
   z-index: -1;
   color: #E2FFE3;
+  font-family: 'Biryani', sans-serif;
 }
 .navbar-light {
   border-color: white;
@@ -178,92 +179,40 @@ i {
 .navbar-toggler {
   background-color: #f8f9fa;
 }
-a.cp_btn {
-	position: relative;
-	display: block;
-	width: 160px;
-	padding: 0.8em;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	background: #EC407A;
-	border:1px solid #fff;
-	overflow: hidden;
-}
-a.cp_btn:before {
-	content:"";
-	position: absolute;
-	top: 0px;
-	left: -150px;
-	height: 100%;
-	width: 160px;
-	background : #fff;
-	opacity: 0.3;
-	transition: .4s;
-}
-a.cp_btn:hover:before {
-	left:0;
-}
-.m-center {
-  margin-left: auto;
-  margin-right: auto;
+.btn-gradient-3d-orange {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #FF2600 0%, #EA908C 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
 }
 
-a.op_btn {
-	position: relative;
-	display: block;
-	width: 100%;
-	padding: 0.8em;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	background: #EC407A;
-	border:1px solid #fff;
-	overflow: hidden;
-}
-a.op_btn:before {
-	content:"";
-	position: absolute;
-	top: 0px;
-	left: -90%;
-	height: 100%;
-	width: 100%;
-	background : #fff;
-	opacity: 0.3;
-	transition: .4s;
-}
-a.op_btn:hover:before {
-	left:0;
+.btn-gradient-3d-orange:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
 }
 
-/*説明会ボタン*/
-a.main-cp{
-	color: #fff;
-	background: #FF2600;
-	border:1px solid #fff;
-}
-a.main-cp:before {
-	background : #fff;
-	opacity: 0.3;
-	transition: .4s;
-}
-/*オープンラボ*/
-a.main-op{
-	color: #fff;
-	background: #0042FF;
-	border:1px solid #fff;
-}
-a.main-op:before {
-	background : #fff;
-	opacity: 0.3;
-	transition: .4s;
+
+.btn-circle-border-simple:hover {
+  background: #EA908C;
 }
 .color-red {
-  color: #FF2600;
+  color: red;
 }
-.under {
-  font-size: 100%;
-  border-bottom: 1px double #FF2600;
+
+
+@media screen and (min-width: 671px) and (max-width: 1024px){
+
+  .child {
+    top: 290px;
+    font-size: 120px;
+  }
+
 }
 
 @media (max-width: 575.98px) {

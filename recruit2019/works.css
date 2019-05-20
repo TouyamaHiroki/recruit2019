@@ -67,7 +67,7 @@ padding-left: 15px;
 .top-wrapper {
   padding-top: 180px;
   width: 100%;
-  font-family: "Kanit";
+  font-family: 'Biryani', sans-serif;
   font-size: 20px;
   padding-bottom: 30px;
   background-image: url("recruit-back.001.jpeg");
@@ -145,6 +145,9 @@ padding-left: 15px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   opacity: 0.9;
+  border: 2px solid #61D836;
+  color: #fff;
+  background-color: white;
 }
 .button::after {
   top: 0;
@@ -155,10 +158,12 @@ padding-left: 15px;
   transform-origin: center bottom;
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
+  background: #61D836;
 }
 .button:hover::after {
   -webkit-transform: rotateX(-180deg);
   transform: rotateX(-180deg);
+  color: #61D836;
 }
 .info {
   font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
@@ -166,29 +171,6 @@ padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
-}
-.yamanpo {
-  border: 2px solid #61D836;
-  color: #fff;
-}
-.yamanpo::after {
-  background: #61D836;
-}
-.yamanpo:hover {
-  color: #61D836;
-  background-color: white;
-}
-
-.icreate {
-  border: 2px solid #BDC7DF;
-  color: #fff;
-}
-.icreate::after {
-  background: #BDC7DF;
-}
-.icreate:hover {
-  color: #BDC7DF;
-  background-color: white;
 }
 
 .mesh {
@@ -215,6 +197,7 @@ i {
   font-size: 200px;
   z-index: -1;
   color: #E2FFE3;
+  font-family: 'Biryani', sans-serif;
 }
 .navbar-light {
   border-color: white;
@@ -223,10 +206,22 @@ i {
   background-color: #f8f9fa;
 }
 .text-red {
-  color: red;
+  color: #EBB74B;
 }
 .margin-b-20 {
   margin-bottom: 20px;
+}
+.install {
+  text-align: center;
+}
+.all-image {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: 671px) and (max-width: 1023px){
+
 }
 
 @media (max-width: 575.98px) {

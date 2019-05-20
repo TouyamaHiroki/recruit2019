@@ -5,6 +5,9 @@ header {
   top: 0;
   z-index: 10;
 }
+main {
+  color: #424242;
+}
 .wf-notosansjapanese {
   font-family: "Noto Sans JP";
  }
@@ -49,7 +52,7 @@ padding-left: 15px;
 .top-wrapper {
   padding-top: 180px;
   width: 100%;
-  font-family: "Kanit";
+  font-family: 'Biryani', sans-serif;
   font-size: 20px;
   padding-bottom: 30px;
   background-image: url("recruit-back.001.jpeg");
@@ -66,15 +69,14 @@ padding-left: 15px;
   height: 120px;
   line-height: 120px;
   border-radius: 50%;
-  border: double 4px black;
   text-align: center;
   overflow: hidden;
   transition: .6s;
 }
 
 .btn-circle-border-double:hover {
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(180deg);
+  opacity: 0;
 }
 
 .top-wrapper h2 {
@@ -85,12 +87,12 @@ padding-left: 15px;
   padding-right: 0px;
 }
 .image {
-  width: 80%;
+  width: 100%;
   height: auto;
   text-align: center;
 }
 .sentence {
-  margin-top: 10px;
+  margin-top: 105%;
   margin-bottom: 40px;
 }
 .sub-zemi {
@@ -113,6 +115,7 @@ padding-left: 15px;
   font-size: 190px;
   z-index: -1;
   color: #E2FFE3;
+  font-family: 'Biryani', sans-serif;
 }
 .navbar-light {
   border-color: white;
@@ -124,8 +127,57 @@ padding-left: 15px;
   margin-right: 0;
   margin-left: 0;
 }
+.back {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 30px 30px;
+  box-shadow: 0 0 20px gray;
+  width: 90%;
+}
+.teacher {
+  padding: 10px 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    margin-bottom: 20px;
+}
+.text-muted {
+  font-size: 90%;
+}
+.ichiper {
+  width: 100%;
+  height: auto;
+}
+.pic-1 {
+  position: relative;
+}
+.pic-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.above {
+  z-index: 1;
+}
+.back-gray {
+  background-color: #424242;
+}
 
-@media (max-width: 575.98px) {
+
+@media screen and (min-width: 671px) and (max-width: 1023px){
+
+  .child {
+    top: 290px;
+    font-size: 120px;
+  }
+
+}
+@media (max-width: 770px) {
 
 .footer p {
   margin-bottom: 0;
@@ -141,12 +193,12 @@ padding-left: 15px;
   top: 290px;
   font-size: 60px;
 }
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
+
 body {
   font-size: 80%;
+}
+.ichiper-sentence {
+  margin-top: 110%;
 }
 
 }

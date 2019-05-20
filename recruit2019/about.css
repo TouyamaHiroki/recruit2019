@@ -52,7 +52,7 @@ padding-left: 15px;
 .top-wrapper {
   padding-top: 180px;
   width: 100%;
-  font-family: "Kanit";
+  font-family: 'Biryani', sans-serif;
   font-size: 20px;
   padding-bottom: 30px;
   background-image: url("recruit-back.001.jpeg");
@@ -87,7 +87,7 @@ hr {
   background-color: white;
 }
 .info {
-  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  font-family: "Yu Gothic", Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 40px;
@@ -186,6 +186,7 @@ h2 {
   font-size: 200px;
   z-index: -1;
   color: #E2FFE3;
+  font-family: 'Biryani', sans-serif;
 }
 .navbar-light {
   border-color: white;
@@ -208,6 +209,10 @@ h2 {
   height: 187.5px;
   width: 260.5px;
 }
+.apps-three-icon {
+  width: 225px;
+  height: 225px;
+}
 .movie-image {
   height: 250px;
   width: 250px;
@@ -217,9 +222,41 @@ iframe {
   width: 280px;
 }
 .intelleggs-image {
-  height: 145.8px;
-  width: 297.6px;
+  height: 225px;
+  height: 225px;
 }
+.w-80 {
+  width: 80%;
+}
+.m-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 671px) and (max-width: 1024px){
+
+  iframe {
+    height: 110.5px;
+    width: 196px;
+  }
+  .movie-image {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+  }
+  .apps-three-icon {
+    height: 200px;
+    width: 200px;
+  }
+  .intelleggs-image {
+    height: 100%;
+    width: 100%;
+  }
+  .w-80 {
+    width: auto;
+  }
+}
+
 
 @media (max-width: 575.98px) {
 
@@ -259,4 +296,8 @@ iframe {
 .mb-20 {
   margin-bottom: 20px;
 }
+.w-80 {
+  width: auto;
+}
+
 }
